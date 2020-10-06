@@ -13,7 +13,7 @@ const secTarget = __dirname + `/secTarget.txt`;
 const publisher = zmq.socket('pub');
 
 // fs.watch is only called once
-fs.watch(secTarget, () => {
+fs.watch(filename, () => {
   // Send a message to any and all subscribers.
   publisher.send(
     JSON.stringify({
