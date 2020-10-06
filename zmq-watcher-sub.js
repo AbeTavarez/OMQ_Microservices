@@ -1,5 +1,7 @@
 `use strict`;
 
+//* Subscriber ////////////////
+
 const zmq = require(`zeromq`);
 
 // Create subscriber endpoint
