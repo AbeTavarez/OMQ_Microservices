@@ -15,3 +15,9 @@ fs.watch(filename, () => {
     timestamp: Date.now()
   }));
 });
+
+// Listen on TCP port 60400
+publisher.bind(`tcp://*:60400`, err => {
+  if (err) throw err;
+  console.log(`Listening for zmq subscribers...`)
+});
