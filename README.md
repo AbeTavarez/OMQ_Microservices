@@ -29,7 +29,7 @@ node zmq-watcher-pub.js target.txt
 
 ## Help
 
-If you encounter any problems or issues summit an issue ticket or pull request.
+If you encounter any problems or issues, please submit an issue ticket or pull request.
 
 ## Authors
 
