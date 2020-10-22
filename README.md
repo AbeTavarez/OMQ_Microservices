@@ -24,7 +24,7 @@ npm install
 
 * you can execute different files with node
 ```
-node zmq-watcher-pub,js target.txt
+node zmq-watcher-pub.js target.txt
 ```
 
 ## Help
@@ -33,8 +33,8 @@ If you encounter any problems or issues summit an issue ticket or pull request.
 
 ## Authors
 
-ex. Abraham Tavarez  
-ex. [@abrahametavarez](https://www.linkedin.com/in/abrahametavarez/)
+Abraham Tavarez  
+[@abrahametavarez](https://www.linkedin.com/in/abrahametavarez/)
 
 ## Version History
 
