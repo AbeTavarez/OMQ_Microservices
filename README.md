@@ -15,14 +15,14 @@ Using messaging patterns: publish/subcribe, request/reply and push/pull the serv
 
 ### Installing
 
-* In the main directory: 
+* In the root directory run: 
 ```
 npm install
 ```
 
 ### Executing program
 
-* you can execute different files with node
+* You can execute different files with node
 ```
 node zmq-watcher-pub.js target.txt
 ```
@@ -30,6 +30,9 @@ node zmq-watcher-pub.js target.txt
 ## Help
 
 If you encounter any problems or issues, please submit an issue ticket or pull request.
+```
+npm test
+```
 
 ## Authors
 
